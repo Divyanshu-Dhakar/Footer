@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 90%;
+}
+.colum {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    text-align: center;
+    color: #282828;
+    margin-bottom: 1rem;
+}
+.logo h1 {
+    margin-bottom: 0.7rem;
+}
+.about {
+    text-align: center;
+    max-width: 20rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #353535;
+}
+.colum {
+    text-align: center;
+    color: #1b1b1b;
+}
+.colum h2 {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.colum a {
+    margin-bottom: 1rem;
+    color: #000;
+    font-weight: 550;
+}
+
+.colum a:hover {
+opacity: 70%;}
+
+.colum1 {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-brands {
+    color: #1b1b1b;
+    margin: 0.7rem auto;
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
+}
+.rights {
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+}
+.rights p {
+    margin-top: 20px;
+    color: #000000;
+    opacity: 60%;
+}
+.rights hr {
+    height: 1px;
+    color: #000000;
+    opacity: 60%;
+}
